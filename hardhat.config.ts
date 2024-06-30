@@ -7,10 +7,10 @@ import "@nomiclabs/hardhat-ethers";
 import "hardhat-contract-sizer"
 import "@nomicfoundation/hardhat-verify";
 
-require("hardhat-storage-layout");
-require('solidity-coverage')
+import "hardhat-storage-layout";
+import 'solidity-coverage'
 
-module.exports = {
+export default{
     solidity: {
       compilers: [{
         version: "0.8.19",
