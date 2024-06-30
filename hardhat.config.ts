@@ -1,5 +1,5 @@
 /**
- * @type import('hardhat/config').HardhatUserConfig
+ *  import('hardhat/config').HardhatUserConfig
  */
 
 import "hardhat-typechain";
